@@ -5,44 +5,47 @@ import 'package:kazeem_portfolio/utils/AppColors.dart';
 import 'package:kazeem_portfolio/utils/common_string.dart';
 import 'package:kazeem_portfolio/utils/text_style.dart';
 
-
 class TeamPage extends StatelessWidget {
   var descriptions =
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
-
+      'These are some of my commendation for previous commitment';
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       padding: const EdgeInsets.only(left: 20, right: 20),
       child: Container(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            Text(
-              'Our Team',
-              style: headerTextStyle,
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            Text(
-              description,
-              style: bodyTextStyle,
-            ),
-            const SizedBox(
-              height: 10,
-            ),
-            _itemWidget('Jhon Deo', 'assets/avtar1.png', descriptions),
-            _itemWidget('Jhon Deo', 'assets/avtar2.png', descriptions),
-            _itemWidget('Jhon Deo', 'assets/avtar3.png', descriptions),
-            _itemWidget('Jhon Deo', 'assets/avtar4.png', descriptions),
-          ],
-        ),
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Text(
+                'Our Team',
+                style: headerTextStyle,
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              Text(
+                description,
+                style: bodyTextStyle,
+              ),
+              const SizedBox(
+                height: 10,
+              ),
+              _itemWidget(
+                'Ahmed Olanrewaju',
+                'assets/avtar1.png',
+                'Chief system analyst,Media and Information services, University of Ibadan',
+              ),
+              _itemWidget(
+                'Olajide Evans',
+                'assets/avtar2.png',
+                'chief, Executive officer, Intravent Technologies',
+              ),
+            ]),
       ),
     );
   }
 
-  Widget _itemWidget(String name,String image,String description) {
+  Widget _itemWidget(String name, String image, String description) {
     return Container(
       margin: const EdgeInsets.only(top: 10),
       padding: const EdgeInsets.all(10),
@@ -65,7 +68,6 @@ class TeamPage extends StatelessWidget {
             width: 5,
           ),
           Expanded(
-              // ignore: avoid_unnecessary_containers
               child: Container(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
