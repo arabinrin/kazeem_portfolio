@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "119398869083",
+    "project_id": "portoflio-32159",
+    "storage_bucket": "portoflio-32159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119398869083:android:603693d76878ea7bccf77e",
+        "android_client_info": {
+          "package_name": "com.example.kazeem_portfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119398869083-qaon8gdp56saakkpmbfmkgovlkrn2b9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbAt4QaVNiItNUr-LVVH3bGvwirwwatZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119398869083-qaon8gdp56saakkpmbfmkgovlkrn2b9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
