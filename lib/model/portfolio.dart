@@ -11,7 +11,7 @@ class PortfolioModel {
 
 List<PortfolioModel> portfolios = [
   PortfolioModel(
-    function: 'the mainstream agriculture produ ts and farm implements market ',
+    function: 'the mainstream agriculture products and farm implements market ',
     image: 'assets/agrikmart.png',
     name: 'Agrikmart',
   ),
